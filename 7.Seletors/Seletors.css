@@ -1,0 +1,42 @@
+.first{
+    color: red;
+    background-color: yellow;
+    border: 10px;
+    font-style:italic;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2.1em;
+   
+    
+}
+#first{
+    color:rgb(219, 29, 102);
+    background-color:#fc5f;
+    border: 10px;
+    font-style:italic;
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2.1em; 
+    height: 100px;
+    width: 950px;
+    border: blue 2px solid;
+    border-radius: 11px;
+    padding: 200px,200px,200px,200px,;
+    
+    
+}
+#second{
+    background-image: url('http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcTxtg70zt4RN5AySbvBbwrpaPSRZcsgXWLzPUWFWXsYe37P8Vbm1MF_rL5_knVYm4_hoDY5s9F_8e5q2yE');
+    background-position: center;
+    background-size:350px;
+    height: 350px;
+    width: 350px;
+    border: blue 2px solid;
+    border-radius: 11px;
+    font-size: 20px;
+    color: red;
+    font-family: cursive;
+    
+}

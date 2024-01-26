@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+        #abc {
+            background: rgb(128, 26, 0);
+            font-family:'Courier New', Courier, monospace ;
+            color: yellow;
+            font-size: x-large;
+        }
+        /*  If we are use 'line-height' tag then not use 'br' tags */
+        /* div{
+            line-height: 2.2em;
+        } */
+    </style>
+    <form action="">
+        <span id="abc">Please fill your data !</span>
+        <h3>if you are fine..</h3>
+        <br /><br />
+        <div>NAME: <input type="text" /></div>
+        <br />
+        <div>RollNo.: <input type="number" /></div>
+        <br />
+        <div>DATE: <input type="date" /></div>
+        <br />
+        <div>MobileNo.: <input type="number" /></div>
+        <br />
+        <div><label for="email">Email:</label>
+            <input type="email" id="email" name="myEmail" value="@email.com" />
+        </div>
+        <br />
+        <div>
+            <label for="checkbox">If you are input data are correct then check
+                the box.</label>
+            <input type="checkbox" id="checkbox" checked />
+        </div><br>
+        <div></div>
+        <Gender:>Gender: male<input type="radio" name="myGender">female<input type="radio" name="myGender">other<input
+                type="radio" name="myGender" id=""></div>
+            <br><br>
+            <div><label for="contry">Select your Region:</label>
+                <select name="Mycontry" id="contry">
+                    <option value="India" selected>India </option>
+                    <option value="Indonesiya">Indonesiya</option>
+                    <option value="Bhuthan">Bhuthan</option>
+                    <option value="Japan">Japan</option>
+                </select>
+            </div>
+            <br>
+            <div>Enter your text:
+                <br><textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <br>
+            <div><input type="submit" value="Submit" />
+                <input type="reset" value="reset">
+            </div>
+
+    </form>
+</head>
+
+<body></body>
+
+</html>

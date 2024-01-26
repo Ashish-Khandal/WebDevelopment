@@ -1,0 +1,16 @@
+.container{
+    margin: 100px;
+    width: 30vw;
+    height: 30vw;
+    background-color: yellow;
+    /* transition-property: border-radius; */
+    /* transition-property: all; */
+    /* transition-delay: 1s; */
+    /* transition: 1s 0.1s ease-in-out ; */
+    transition: 1s 0.1s cubic-bezier(0.02, 1.06, 0.93, 0.08) ;
+}
+.container:hover{
+    background-color: red;
+    border-radius: 50%;
+    transform: rotate(180deg);
+}

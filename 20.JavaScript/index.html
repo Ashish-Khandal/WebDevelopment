@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="script.js" />
+    <style>
+      .para {
+        background-color: aqua;
+        border: 2px solid black;
+        padding: 4px 10px;
+        /* margin: 20px 0; */
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        overflow: hidden;
+      }
+      .box:hover {
+        transition: 0.2s ease-in-out;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+      }
+      .addClass {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        font-size: 1.2rem;
+        background-color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <h3 id="header" style="color: red; text-align: center">
+      This is a JavaScript Program.
+    </h3>
+    <form action="">
+      <div class="para" id="container">
+        <label for="click">
+          NAME:
+          <input
+            type="text"
+            id="click"
+            placeholder="Surya Pandit"
+            style="background-color: gold"
+          />
+        </label>
+        <div style="border: 2px solid green; padding: 4px" id="para1">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
+            dolor libero sed nesciunt earum perferendis in excepturi consectetur
+            dolorem.
+          </p>
+        </div>
+        <div style="border: 2px solid green; padding: 4px" id="para2">
+          <p>
+            eveniet, quas ad dicta sapiente illo rerum pariatur mollitia?
+            Repellendus quod deleniti vel laborum aliquam, magni veritatis
+            asperiores iure placeat alias!
+          </p>
+        </div>
+
+        <div style="border: 2px solid green; padding: 4px" id="para3">
+          <p>This is a para three..</p>
+        </div>
+        <input
+          type="reset"
+          value="reset"
+          class="para"
+          onclick="clicked()"
+        />
+        <input type="submit" value="Submit" class="para" />
+      </div>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>
