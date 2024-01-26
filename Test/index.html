@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+  </head>
+  <style>
+    .timeContainer {
+      background-color: rgb(224, 221, 217);
+      color: rgb(201, 23, 23);
+      font-size: medium;
+      padding: 20px;
+      margin: 20px;
+      text-align: center;
+      font-weight: bold;
+      border-radius: 10px;
+      border: 2px solid black;
+    }
+  </style>
+  <body>
+    <div class="container" id="container">
+      <p class="pera" id="pera">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus,
+        molestias!
+      </p>
+    </div>
+  </body>
+  <script>
+    let jsonObj = {
+      name: "Ashish",
+      course: "Mca",
+      salary: 10000,
+      gender: "Male",
+    };
+    console.log(jsonObj);
+    let myJson = JSON.stringify(jsonObj);
+    console.log(myJson);
+    console.log(typeof jsonObj);
+    console.log(typeof myJson);
+    myJson = myJson.replace("Ashish", "Surya");
+    myJson = myJson.replace("name", "Name");
+    console.log(myJson);
+    myJson = JSON.parse(myJson);
+    console.log(myJson);
+    console.log(typeof myJson);
+  </script>
+</html>
